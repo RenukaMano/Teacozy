@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: "Helvetica", sans-serif;
     color: seashell;
-    background-color: rgb(122, 190, 221);
+    background-color:darkcyan;
     font-size: 22px;
     text-align: center;
   }
@@ -129,16 +129,33 @@ body {
     flex-direction: column;
     justify-content: center;
   }
+  .location h3 {
+    padding-bottom:5px;
+  }
+  .location p {
+    margin:5px 0;
+  }
   
   /* Contact Section */
   
   #contact {
     height: 200px;
-  }
-  
+    margin: auto;
+    }
+    #contact h2 {
+      padding-bottom: 5px;
+     
+    }
+    #contact h5 {
+      margin: 10px 0;
+    }
+      
   /* Footer Section */
   
   footer {
+    padding-left: 10px;
     text-align: left;
-    padding-left: 20px;
+    
+    
+
   }
